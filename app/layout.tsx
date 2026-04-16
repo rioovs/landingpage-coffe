@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/hero-1.png",
+        url: "/landingpage-coffe/hero-1.png",
         width: 1200,
         height: 630,
         alt: "Eazy Coffee — Coffee Shop Jombang",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Eazy Coffee — Coffee Shop Jombang",
     description: "Ngopi di Jombang? #eazycoffee Saja. Est. 2011.",
-    images: ["/hero-1.png"],
+    images: ["/landingpage-coffe/hero-1.png"],
   },
   robots: {
     index: true,
