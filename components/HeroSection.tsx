@@ -2,14 +2,15 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/utils";
 
 const slides = [
   {
-    src: "/hero-1.png",
+    src: getAssetPath("/hero-1.png"),
     alt: "Suasana Eazy Coffee — Coffee shop cozy di Jombang",
   },
   {
-    src: "/hero-2.png",
+    src: getAssetPath("/hero-2.png"),
     alt: "Menu unggulan Eazy Coffee — Es Kopi Susu dan Lychee Tea",
   },
 ];

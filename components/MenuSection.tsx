@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { getAssetPath } from "@/lib/utils";
 
 const menuItems = [
   {
     name: "Quesadilla",
     description: "Tortilla renyah berisi keju leleh dan isian pilihan. Gurih dan mengenyangkan.",
-    image: "/menu-quesadilla.png",
+    image: getAssetPath("/menu-quesadilla.png"),
     badge: "Best Seller",
     badgeColor: "bg-amber-500 text-coffee-950",
     price: "Rp 25.000",
@@ -12,7 +13,7 @@ const menuItems = [
   {
     name: "Loaded Fries",
     description: "Kentang goreng crispy dipadukan dengan topping keju, saus spesial, dan taburan bumbu rahasia.",
-    image: "/menu-fries.png",
+    image: getAssetPath("/menu-fries.png"),
     badge: "Favorit",
     badgeColor: "bg-red-500 text-white",
     price: "Rp 22.000",
@@ -20,7 +21,7 @@ const menuItems = [
   {
     name: "Es Kopi Susu",
     description: "Perpaduan espresso premium dengan susu segar dan es batu yang menyegarkan. Khas Eazy Coffee.",
-    image: "/menu-kopi-susu.png",
+    image: getAssetPath("/menu-kopi-susu.png"),
     badge: "Signature",
     badgeColor: "bg-amber-700 text-cream-100",
     price: "Rp 18.000",
@@ -28,7 +29,7 @@ const menuItems = [
   {
     name: "Lychee Tea",
     description: "Teh premium dengan infus lychee segar, manis alami dan menyegarkan di setiap tegukan.",
-    image: "/menu-lychee-tea.png",
+    image: getAssetPath("/menu-lychee-tea.png"),
     badge: "Non-Coffee",
     badgeColor: "bg-pink-500 text-white",
     price: "Rp 18.000",
